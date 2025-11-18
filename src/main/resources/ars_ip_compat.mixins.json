@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "com.example.ars_ip_compat.mixin",
+  "package": "com.alexthw.ars_ip_compat.mixin",
   "compatibilityLevel": "JAVA_21",
   "refmap": "ars_ip_compat.refmap.json",
   "mixins": [

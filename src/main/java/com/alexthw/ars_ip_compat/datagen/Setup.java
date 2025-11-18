@@ -1,6 +1,6 @@
-package com.example.ars_ip_compat.datagen;
+package com.alexthw.ars_ip_compat.datagen;
 
-import com.example.ars_ip_compat.ExampleANAddon;
+import com.alexthw.ars_ip_compat.ImmersiveArsP;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
@@ -11,7 +11,7 @@ import net.neoforged.neoforge.data.event.GatherDataEvent;
 
 import java.util.concurrent.CompletableFuture;
 
-@EventBusSubscriber(modid = ExampleANAddon.MODID, bus = EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(modid = ImmersiveArsP.MODID, bus = EventBusSubscriber.Bus.MOD)
 public class Setup {
     public static CompletableFuture<HolderLookup.Provider> provider;
     public static PackOutput output;
@@ -25,10 +25,8 @@ public class Setup {
         output = gen.getPackOutput();
 
         gen.addProvider(event.includeServer(), new ArsProviders.ImbuementProvider(gen));
-        gen.addProvider(event.includeServer(), new ArsProviders.GlyphProvider(gen));
         gen.addProvider(event.includeServer(), new ArsProviders.EnchantingAppProvider(gen));
 
-        gen.addProvider(event.includeServer(), new ArsProviders.PatchouliProvider(gen));
     }
 
 }

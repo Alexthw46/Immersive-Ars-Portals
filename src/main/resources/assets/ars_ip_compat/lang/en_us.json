@@ -1,6 +1,5 @@
 {
-	"ars_ip_compat.glyph_desc.glyph_test": "This is my test!",
-	"ars_ip_compat.glyph_name.glyph_test": "Test",
-
-	"item.ars_ip_compat.star_hat": "Example hat"
+  "item.ars_ip_compat.immersive_warp_scroll": "Infused Warp Scroll",
+  "item.ars_ip_compat.immersive_stabilized_warp_scroll": "Infused Stable Warp Scroll",
+  "ars_ip_compat.immersive_warp_scroll.desc": "Warp Scrolls pre-infused with source. It can be used to create immersive portals instead of Warp Portals if Immersive Portals is installed, but they can't be used to teleport directly or form classic portals."
 }

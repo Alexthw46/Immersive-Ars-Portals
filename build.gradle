@@ -155,16 +155,11 @@ dependencies {
 
     // only need the compileOnly, the runtime dependency is handled by Ars Nouveau
     compileOnly "software.bernie.geckolib:geckolib-neoforge-${minecraft_version}:${geckolib_version}"
-    compileOnly "vazkii.patchouli:Patchouli:1.21-${patchouli_version}"
     compileOnly 'com.github.glitchfiend:TerraBlender-neoforge:1.21-4.0.0.0'
     compileOnly "top.theillusivec4.curios:curios-neoforge:${curios_version}"
     compileOnly "mezz.jei:jei-${minecraft_version}-neoforge-api:${jei_version}"
-
-    //implementation "mezz.jei:jei-${minecraft_version}-neoforge:${jei_version}"
-
-    // cyanide to debug worldgen, localRuntime configuration won't mark is a dependency
-    // localRuntime "curse.maven:cyanide-541676:5782674"
-
+    implementation "curse.maven:immersive-portals-for-forge-355440:6667779"
+    implementation "curse.maven:cloth-config-348521:5729127"
 }
 
 // Example for how to get properties into the manifest for reading by the runtime..
