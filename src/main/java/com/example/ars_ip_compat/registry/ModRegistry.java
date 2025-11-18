@@ -1,6 +1,6 @@
-package com.example.an_addon.registry;
+package com.example.ars_ip_compat.registry;
 
-import com.example.an_addon.item.ExampleCosmetic;
+import com.example.ars_ip_compat.item.ExampleCosmetic;
 import com.hollingsworth.arsnouveau.api.sound.SpellSound;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -12,8 +12,8 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import org.jetbrains.annotations.NotNull;
 
-import static com.example.an_addon.ExampleANAddon.MODID;
-import static com.example.an_addon.ExampleANAddon.prefix;
+import static com.example.ars_ip_compat.ExampleANAddon.MODID;
+import static com.example.ars_ip_compat.ExampleANAddon.prefix;
 import static net.minecraft.core.registries.Registries.SOUND_EVENT;
 
 public class ModRegistry {

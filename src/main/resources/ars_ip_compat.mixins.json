@@ -1,8 +1,8 @@
 {
   "required": true,
-  "package": "com.example.an_addon.mixin",
+  "package": "com.example.ars_ip_compat.mixin",
   "compatibilityLevel": "JAVA_21",
-  "refmap": "an_addon.refmap.json",
+  "refmap": "ars_ip_compat.refmap.json",
   "mixins": [
   ],
   "minVersion": "0.8",

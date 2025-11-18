@@ -1,4 +1,4 @@
-package com.example.an_addon;
+package com.example.ars_ip_compat;
 
 
 import net.neoforged.bus.api.SubscribeEvent;

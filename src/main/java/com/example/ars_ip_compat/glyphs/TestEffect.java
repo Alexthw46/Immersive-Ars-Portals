@@ -1,4 +1,4 @@
-package com.example.an_addon.glyphs;
+package com.example.ars_ip_compat.glyphs;
 
 import com.hollingsworth.arsnouveau.api.spell.*;
 import com.hollingsworth.arsnouveau.common.spell.augment.AugmentAmplify;
@@ -11,7 +11,7 @@ import javax.annotation.Nonnull;
 
 import java.util.Set;
 
-import static com.example.an_addon.ExampleANAddon.prefix;
+import static com.example.ars_ip_compat.ExampleANAddon.prefix;
 
 public class TestEffect extends AbstractEffect {
 
