@@ -1,6 +1,6 @@
-package com.example.an_addon.datagen;
+package com.example.ars_ip_compat.datagen;
 
-import com.example.an_addon.ExampleANAddon;
+import com.example.ars_ip_compat.ExampleANAddon;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
